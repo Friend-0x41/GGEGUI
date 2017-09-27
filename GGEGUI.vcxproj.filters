@@ -13,14 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\core">
+      <UniqueIdentifier>{23cf5810-3bb0-466f-aa84-0cf61e905482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\core\memory">
+      <UniqueIdentifier>{aa9f4680-2bf8-4aac-b1a7-6bc820d616aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="class\test.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="class\core\memory\MemoryPool.h">
+      <Filter>头文件\core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="class\core\memory\ObjectPool.h">
+      <Filter>头文件\core\memory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="class\test.cpp">
+    <ClCompile Include="class\core\memory\test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="class\test.h" />
+    <ClInclude Include="class\core\memory\MemoryPool.h" />
+    <ClInclude Include="class\core\memory\ObjectPool.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="class\test.cpp" />
+    <ClCompile Include="class\core\memory\test.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{13C6EB8D-D191-40D4-8AE6-FB7CDC82CA3B}</ProjectGuid>
