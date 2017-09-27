@@ -27,6 +27,9 @@
     <ClInclude Include="class\core\memory\ObjectPool.h">
       <Filter>头文件\core\memory</Filter>
     </ClInclude>
+    <ClInclude Include="class\core\memory\ObjectTree.h">
+      <Filter>头文件\core\memory</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="class\core\memory\test.cpp">

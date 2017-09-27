@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="class\core\memory\MemoryPool.h" />
     <ClInclude Include="class\core\memory\ObjectPool.h" />
+    <ClInclude Include="class\core\memory\ObjectTree.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="class\core\memory\test.cpp" />
